@@ -7480,7 +7480,7 @@ header {
     width: 100%; }
     header .colorlib-navbar-brand .colorlib-logo {
       font-size: 30px;
-      color: #fff;
+      color: #000;
       text-transform: uppercase;
       letter-spacing: 2px;
       font-weight: 400;
@@ -7493,7 +7493,7 @@ header {
         font-size: 11px;
         display: block;
         font-weight: 300;
-        color: rgba(255, 255, 255, 0.8); }
+        color: #000; }
 
 .colorlib-nav-toggle {
   cursor: pointer;
@@ -9154,3 +9154,6 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+    
+    .colorlib-nav-toggle i, .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
+      background: #000 !important; }
